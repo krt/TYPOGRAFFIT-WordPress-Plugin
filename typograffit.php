@@ -1,14 +1,14 @@
 <?php
 /*
 Plugin Name: Typograffit Plugin
-Plugin URI: http://msty.jp/wp_typograffit
+Plugin URI: http://de-modulator.com/wp_typograffit
 Description: Enables you to access the Typograffit functions. You can easily typograph-ize your post-items even if you use the multi-byte charactors such like Japanese. Usage: Simply　putting the words you want to convert to fine image-fonts between short-codes. Example : [typo]this is a test.これはテスト. [/typo]
 Author: Masato Yamaguchi
 Version: 1.0
-Author URI: http://localhost/wp_typograffit
+Author URI: http://de-modulator.com/wp_typograffit
 */
 
-define(TYPOGRAFFIT_BASE_URI,'http://centos.local/typograffit/');
+define(TYPOGRAFFIT_BASE_URI,'http://typograffit.com/');
 define(TYPOGRAFFIT_REST_URI,TYPOGRAFFIT_BASE_URI.'rest_json/');
 define(TYPOGRAFFIT_COMPOSE_URI,TYPOGRAFFIT_BASE_URI.'posts/compose/');
 
